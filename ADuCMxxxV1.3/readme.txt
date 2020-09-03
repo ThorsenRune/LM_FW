@@ -1,0 +1,2 @@
+This is a private copy of the development kit that was downloadable from the Analog Devices Website.
+It is to ensure development in case the kit becomes obsolete and for use only with the aquired development kits
