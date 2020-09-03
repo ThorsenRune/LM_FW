@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\Adc\Adc.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\ADC_DMA\ADC_DMA.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Blink\Blink.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\CN0300\CN0300.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\DAC_DMA\DAC_DMA.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Flash\Flash.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\FlashProtect\FlashProtect.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\AN1159 I2C\I2C.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\I2C_DMA\Master\I2CDMA_Master.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\I2C_DMA\Slave\I2CDMA_Slave.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PowerDown\PowerDown.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PWM\PWM.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\RTD_Demo\RTD_Demo.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\SPI\SPI.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\SPI_DMA\SPIDMA_Master\SPIDMA_Master.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\SPI_DMA\SPIDMA_SLave\SPIDMA_Slave.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\CN0221\Thermocouple.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Timers\Timers.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Uart_DMA\UARTDMA.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

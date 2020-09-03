@@ -1,0 +1,1 @@
+Merge all the files using 7z on the first one

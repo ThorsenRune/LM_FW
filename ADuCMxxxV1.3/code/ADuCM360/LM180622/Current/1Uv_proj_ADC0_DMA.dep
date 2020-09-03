@@ -1,0 +1,151 @@
+Dependencies for Project '1Uv_proj', Target 'ADC0_DMA': (DO NOT MODIFY !)
+F (..\..\common\Realview\startup_ADuCM360.s)(0x511B9CBC)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI --list "c:\temp\Lst\startup_ADuCM360.lst" --xref -o "c:\temp\Obj\startup_ADuCM360.o" --depend "c:\temp\Obj\startup_ADuCM360.d")
+F (.\main.c)(0x5BBC9C7E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\main.o" --omf_browse "c:\temp\Obj\main.crf" --depend "c:\temp\Obj\main.d")
+I (C:\Keil\ARM\Inc\ADI\aducm360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F9C3C0)
+I (..\..\common\AdcLib.h)(0x511B9CBC)
+I (..\..\common\DacLib.h)(0x511B9CBC)
+I (..\..\common\UrtLib.h)(0x511B9CBC)
+I (..\..\common\ClkLib.h)(0x511B9CBC)
+I (..\..\common\WutLib.h)(0x511B9CBC)
+I (..\..\common\WdtLib.h)(0x511B9CBC)
+I (..\..\common\GptLib.h)(0x511B9CBC)
+I (..\..\common\I2cLib.h)(0x511B9CBC)
+I (..\..\common\IntLib.h)(0x511B9CBC)
+I (..\..\common\PwmLib.h)(0x511B9CBC)
+I (..\..\common\PwrLib.h)(0x511B9CBA)
+I (..\..\common\DioLib.h)(0x511B9CBA)
+I (..\..\common\DmaLib.h)(0x511B9CBC)
+I (..\..\common\SpiLib.h)(0x511B9CBC)
+I (main.h)(0x5BAE4207)
+I (LMSettings.h)(0x5BAE5EB9)
+I (GlobalData.c)(0x5BBC7309)
+I (GlobalData.h)(0x5BE2C99D)
+I (merrflags.h)(0x5BA3C628)
+I (mDebug.c)(0x5BAA20F3)
+I (cprototyping.h)(0x5BBCBBA0)
+I (mSysTick.c)(0x5BC463DE)
+I (system.c)(0x5BE2E996)
+I (System.h)(0x5BBC793E)
+I (CalcLib.h)(0x593B4A42)
+I (mDebug.h)(0x593B4A50)
+I (SysInit.c)(0x5BC463DE)
+I (SysInit.h)(0x5BBB0CCE)
+I (mInts.h)(0x593B4A50)
+I (VCCS.h)(0x5BBCB3D5)
+I (cProtocol.h)(0x5BA36520)
+I (fifo.h)(0x593B4A46)
+I (cProtocol.c)(0x5BB49B94)
+I (FiFO.c)(0x5BA3C716)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9C3C0)
+I (mDataExch.h)(0x593B4A4A)
+I (mDataExch.c)(0x5BBCA17D)
+I (VCCS.c)(0x5BBCBB17)
+I (mSubs.h)(0x593B4A50)
+I (INA.c)(0x5BBC9FFC)
+I (INA.H)(0x593B4A4A)
+I (mSubs.c)(0x5BC48EA2)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x50F9C3C0)
+I (CalcLib.c)(0x5BA3C72C)
+I (mInts.c)(0x5BBCBB17)
+I (LVPS.c)(0x5BAE5EB9)
+I (mProts.c)(0x5B769B0A)
+I (..\..\common\IexcLib.h)(0x511B9CBC)
+I (DSP.c)(0x5BB4C0AD)
+I (DSP.h)(0x5BA9F9EE)
+I (mFlash.c)(0x5BC48F9C)
+I (mFlash.h)(0x593B4A50)
+I (cPrototying.c)(0x5BBCBBA0)
+F (..\..\common\UrtLib.c)(0x511B9CBC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\urtlib.o" --omf_browse "c:\temp\Obj\urtlib.crf" --depend "c:\temp\Obj\urtlib.d")
+I (..\..\common\UrtLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+I (..\..\common\DmaLib.h)(0x511B9CBC)
+F (..\..\common\WdtLib.c)(0x511B9CBC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\wdtlib.o" --omf_browse "c:\temp\Obj\wdtlib.crf" --depend "c:\temp\Obj\wdtlib.d")
+I (..\..\common\WdtLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+F (..\..\common\AdcLib.c)(0x511B9CBA)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\adclib.o" --omf_browse "c:\temp\Obj\adclib.crf" --depend "c:\temp\Obj\adclib.d")
+I (..\..\common\AdcLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+I (..\..\common\DmaLib.h)(0x511B9CBC)
+F (..\..\common\ClkLib.c)(0x511B9CBC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\clklib.o" --omf_browse "c:\temp\Obj\clklib.crf" --depend "c:\temp\Obj\clklib.d")
+I (..\..\common\ClkLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+F (..\..\common\IexcLib.c)(0x511B9CBA)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\iexclib.o" --omf_browse "c:\temp\Obj\iexclib.crf" --depend "c:\temp\Obj\iexclib.d")
+I (..\..\common\IexcLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+F (..\..\common\IntLib.c)(0x511B9CBC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\intlib.o" --omf_browse "c:\temp\Obj\intlib.crf" --depend "c:\temp\Obj\intlib.d")
+I (..\..\common\IntLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+F (..\..\common\DioLib.c)(0x511B9CBA)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\diolib.o" --omf_browse "c:\temp\Obj\diolib.crf" --depend "c:\temp\Obj\diolib.d")
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+I (..\..\common\DioLib.h)(0x511B9CBA)
+F (..\..\common\GptLib.c)(0x511B9CBC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\gptlib.o" --omf_browse "c:\temp\Obj\gptlib.crf" --depend "c:\temp\Obj\gptlib.d")
+I (..\..\common\GptLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+F (..\..\common\WutLib.c)(0x511B9CBC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\wutlib.o" --omf_browse "c:\temp\Obj\wutlib.crf" --depend "c:\temp\Obj\wutlib.d")
+I (..\..\common\WutLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+F (..\..\common\DacLib.c)(0x511B9CBC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\daclib.o" --omf_browse "c:\temp\Obj\daclib.crf" --depend "c:\temp\Obj\daclib.d")
+I (..\..\common\DacLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+F (C:\Keil\ARM\Segger\emWin\Lib\GUI_CM3.lib)(0x5100EE0A)()
+F (..\..\common\SpiLib.c)(0x511B9CBC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\spilib.o" --omf_browse "c:\temp\Obj\spilib.crf" --depend "c:\temp\Obj\spilib.d")
+I (..\..\common\SpiLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+I (..\..\common\DmaLib.h)(0x511B9CBC)
+F (..\..\common\DmaLib.c)(0x511B9CBC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\dmalib.o" --omf_browse "c:\temp\Obj\dmalib.crf" --depend "c:\temp\Obj\dmalib.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9C3C0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F9C3C0)
+I (..\..\common\DmaLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+F (..\..\common\PwrLib.c)(0x5B716F0C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\pwrlib.o" --omf_browse "c:\temp\Obj\pwrlib.crf" --depend "c:\temp\Obj\pwrlib.d")
+I (..\..\common\PwrLib.h)(0x511B9CBA)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)
+F (..\..\common\PwmLib.c)(0x511B9CBC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I..\..\common -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o "c:\temp\Obj\pwmlib.o" --omf_browse "c:\temp\Obj\pwmlib.crf" --depend "c:\temp\Obj\pwmlib.d")
+I (..\..\common\PwmLib.h)(0x511B9CBC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD36B0)
+I (..\..\common\core_cm3.h)(0x511B9CBA)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9C3C0)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087AE2E)

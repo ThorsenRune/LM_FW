@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\obj\startup_aducm360.o" ".\obj\adcmeter.o" ".\obj\wdtlib.o" ".\obj\wutlib.o" ".\obj\adclib.o" ".\obj\clklib.o" ".\obj\daclib.o" ".\obj\diolib.o" ".\obj\gptlib.o" ".\obj\i2clib.o" ".\obj\iexclib.o" ".\obj\intlib.o" ".\obj\pwmlib.o" ".\obj\rstlib.o" ".\obj\spilib.o" ".\obj\urtlib.o" ".\obj\dmalib.o" 
+--library_type=microlib --strict --scatter ".\Obj\AdcExample.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\AdcExample.map" -o .\Obj\AdcExample.axf

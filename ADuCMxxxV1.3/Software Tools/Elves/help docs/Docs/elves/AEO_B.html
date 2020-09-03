@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+	<TITLE>ArmElvesOpeningBody</TITLE>
+	<LINK REL="STYLESHEET" HREF="../AIDEB.css" TYPE="text/css">
+</HEAD>
+<BODY>
+<TABLE BORDER=0 Cellpading=2 WIDTH="100%">
+<TR>
+	<TD CLASS="S"><B><FONT SIZE="5">
+		<A HREF="AE_P.html" TARGET="_parent">Opening Window
+		</A></FONT SIZE></B>
+	<TD  CLASS="X"><A HREF="AE_P.html" TARGET="_parent">
+		<img SRC="../Context_I.png" BORDER=0>Context</A>
+</TR>
+</TABLE>
+<P>
+When Elves starts it opens with its main window as shown:<P>
+
+<img SRC="AEO.png" BORDER=0><P>
+
+When Elves first opens it also opens <B>Notepad</B> with a text file giving
+brief instructions. This is mainly to set up the normal help system. See 
+<A href="AES_B.html">Setup</A> to switch help modes.<P>
+
+The control elements of the Elves window are described below.<P>
+
+<H3><A href="AES_B.html">Setup</A></H3>
+
+This button opens the setup window which is described in the 
+<A href="AES_B.html">Setup</A> section.<P>
+
+<H3>F1 = Help</H3>
+
+This opens help according to the help mode selected in 
+<A href="AES_B.html">Setup</A>. For general guidelines on how to use help go to 
+the <A href="../AO_B.html">General Overview</A> page.<P>
+
+<H3>Select Library</H3>
+
+This set of controls enables the user to select which library source files to 
+work with. This is done using the <B>Add</B> button to select the appropriate
+header files. Such selected files are listed in the list box. To 
+remove an entry in the list, first select it and then press the <B>Unlist</B> 
+button. To change the selection, simply drop down the list and select the 
+required header file. When the choice is changed the relevant details are
+changed on the rest of the screen to suit.<P>
+
+The contents of the list box can be copied and pasted to the user source file
+for the #include list. e.g.<BR>
+#include "C:\M360\IAR\Jobs\Libs\Dio\DioLib.h".<P>
+
+To work with Elves the libraries have to follow certain rules as described in 
+<A href="AEC_B.html">Elves Code Rules</A>.<P>
+
+Initially the Source Code window will show the main contents of the chosen 
+header file.  Subsequently clicking the <B>Show</B> button will reload the header 
+file contents to the Source Code window.
+
+
+<H3>Choose Function</H3>
+
+This list automatically lists the functions contained in the chosen library.
+Drop down the list and select the required function. When a function is chosen
+its source code is automatically copied from the library source file to the 
+Source Code edit box.<P>
+
+<H3>Source Code</H3>
+
+This edit box is a direct copy from the function's source code. This consists
+of the header which gives exact instruction how to use the function and 
+what it does. Also shown is the actual source code which the user can 
+view and thus determine exactly what the function does.
+
+<H3>Choose Parameters.</H3>
+
+For use in C programs the user can choose the parameters of the functions 
+using the Edit Boxes, Combo Boxes and List boxes as applicable. The resulting 
+complete function can then be placed into the users code as described below.
+When deciding what to select for the parameters the user can make use of the 
+information in the Source Code window.  Clicking on the parameter name
+will scroll the parameter details into view in the Source Code window.
+
+<H3>Copy</H3>
+
+This button places the function name plus the selected parameters onto the
+clipboard. For the example shown the clipboard contents would be 
+<PRE>DioCon(DIO_GP0,0x9000)</PRE>
+At this stage the user can paste this code into his own source editor.<P>
+
+<H3>Helpers</H3>
+
+Helpers are additional applications that can be accessed through the Elves 
+application.  Helper applications must reside in the same folder as the 
+function source code (in the example DioMpx.exe is in 
+C:\M360\IAR\Jobs\Libs\Dio\).<P>
+
+
+<H3>Exit</H3>
+
+This button closes the application.<P>
+
+			<HR WIDTH="80%">
+</BODY>
+</HTML>
+
+

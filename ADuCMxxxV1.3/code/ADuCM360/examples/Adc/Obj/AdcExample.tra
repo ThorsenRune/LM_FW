@@ -1,0 +1,36 @@
+*** Creating Trace Output File '.\Obj\AdcExample.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup_aducm360.o"'
+### List of Objects: adding '".\obj\adcmeter.o"'
+### List of Objects: adding '".\obj\wdtlib.o"'
+### List of Objects: adding '".\obj\wutlib.o"'
+### List of Objects: adding '".\obj\adclib.o"'
+### List of Objects: adding '".\obj\clklib.o"'
+### List of Objects: adding '".\obj\daclib.o"'
+### List of Objects: adding '".\obj\diolib.o"'
+### List of Objects: adding '".\obj\gptlib.o"'
+### List of Objects: adding '".\obj\i2clib.o"'
+### List of Objects: adding '".\obj\iexclib.o"'
+### List of Objects: adding '".\obj\intlib.o"'
+### List of Objects: adding '".\obj\pwmlib.o"'
+### List of Objects: adding '".\obj\rstlib.o"'
+### List of Objects: adding '".\obj\spilib.o"'
+### List of Objects: adding '".\obj\urtlib.o"'
+### List of Objects: adding '".\obj\dmalib.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\startup_aducm360.o" ".\obj\adcmeter.o" ".\obj\wdtlib.o" ".\obj\wutlib.o" ".\obj\adclib.o" ".\obj\clklib.o" ".\obj\daclib.o" ".\obj\diolib.o" ".\obj\gptlib.o" ".\obj\i2clib.o" ".\obj\iexclib.o" ".\obj\intlib.o" ".\obj\pwmlib.o" ".\obj\rstlib.o" ".\obj\spilib.o" ".\obj\urtlib.o" ".\obj\dmalib.o" 
+--library_type=microlib --strict --scatter ".\Obj\AdcExample.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\AdcExample.map" -o .\Obj\AdcExample.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\AdcExample.axf'
+### ADS-LD Command File: '.\Obj\AdcExample.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\AdcExample.lnp', Handle=0x00001190
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\AdcExample.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

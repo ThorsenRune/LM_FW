@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\obj\startup_aducm360.o" ".\obj\blink.o" ".\obj\diolib.o" ".\obj\intlib.o" ".\obj\rstlib.o" ".\obj\wdtlib.o" ".\obj\clklib.o" 
+--strict --scatter ".\Obj\Blink.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\Blink.map" -o .\Obj\Blink.axf

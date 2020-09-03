@@ -1,0 +1,20 @@
+
+
+
+
+/*
+
+Read DMA residual counter
+
+// Call with @iChan={ADC0_C,ADC1_C and ADC1_C+Alternate}
+int DMA_n_minus_1(unsigned int iChan)
+{	// USe ADC1_C and ADC1_C+Alternate which are 1 larger than the channel index
+	return dmaChanDesc[iChan-1].ctrlCfg.Bits.n_minus_1  ;
+	// Therefore we subtract 1 from iChan
+}
+
+
+
+
+
+*/

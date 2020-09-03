@@ -1,0 +1,26 @@
+
+T1578 000:021 SEGGER J-Link V4.59d (beta) Log File (0000ms, 0021ms total)
+T1578 000:021 DLL Compiled: Jan  7 2013 19:07:25 (0000ms, 0021ms total)
+T1578 000:021 Logging started @ 2016-11-29 10:58 (0000ms, 0021ms total)
+T1578 000:021 JLINK_SetWarnOutHandler(...) (0000ms, 0021ms total)
+T1578 000:021 JLINK_OpenEx(...)
+Firmware: J-Link Lite-ADI Rev.1 compiled Jan  7 2013 17:58:04
+Hardware: V1.00
+S/N: 541001452
+OEM: ADI  returns O.K. (0011ms, 0032ms total)
+T1578 000:032 JLINK_SetErrorOutHandler(...) (0000ms, 0032ms total)
+T1578 000:032 JLINK_ExecCommand("ProjectFile = "C:\ADuCMxxxV1.3\code\ADuCM360\examples\Adc\JLinkSettings.ini"", ...)  returns 0x00 (0007ms, 0039ms total)
+T1578 000:045 JLINK_ExecCommand("Device = ADuCM360", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "ADUCM360" selected (0 KB flash, 0 KB RAM).  returns 0x00 (0000ms, 0039ms total)
+T1578 000:046 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0040ms total)
+T1578 000:046 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0000ms, 0040ms total)
+T1578 000:046 JLINK_SetSpeed(2000) (0000ms, 0040ms total)
+T1578 000:046 JLINK_GetHardwareVersion()  returns 0x2710 (0000ms, 0040ms total)
+T1578 000:046 JLINK_GetDLLVersion()  returns 45904 (0000ms, 0040ms total)
+T1578 000:047 JLINK_GetDLLVersion()  returns 45904 (0000ms, 0040ms total)
+T1578 000:047 JLINK_GetCompileDateTime() (0000ms, 0040ms total)
+T1578 000:047 JLINK_GetFirmwareString(...) (0000ms, 0040ms total)
+T1578 000:048 JLINK_GetHardwareVersion()  returns 0x2710 (0000ms, 0040ms total)
+T1578 000:049 JLINK_GetId() >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>  returns 0x00000000 (0012ms, 0052ms total)
+T22C0 000:049 Out of sync , resynchronizing...Out of sync , resynchronizing...

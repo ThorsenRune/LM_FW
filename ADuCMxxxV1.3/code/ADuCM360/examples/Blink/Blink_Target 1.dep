@@ -1,0 +1,55 @@
+Dependencies for Project 'Blink', Target 'Target 1': (DO NOT MODIFY !)
+F (..\..\common\Realview\startup_ADuCM360.s)(0x511BAACC)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI --list ".\Lst\startup_ADuCM360.lst" --xref -o ".\Obj\startup_ADuCM360.o" --depend ".\Obj\startup_ADuCM360.d")
+F (.\Blink.c)(0x511BAACC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\Obj\blink.o" --omf_browse ".\Obj\blink.crf" --depend ".\Obj\blink.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F9D1D0)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F9D1D0)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD44C0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087BC3E)
+I (..\..\include\..\common\ClkLib.h)(0x511BAACC)
+I (..\..\include\..\common\IntLib.h)(0x511BAACC)
+I (..\..\include\..\common\DioLib.h)(0x511BAACA)
+I (..\..\include\..\common\WdtLib.h)(0x511BAACC)
+F (..\..\common\DioLib.c)(0x511BAACA)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\Obj\diolib.o" --omf_browse ".\Obj\diolib.crf" --depend ".\Obj\diolib.d")
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD44C0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087BC3E)
+I (..\..\common\DioLib.h)(0x511BAACA)
+F (..\..\common\IntLib.c)(0x511BAACC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\Obj\intlib.o" --omf_browse ".\Obj\intlib.crf" --depend ".\Obj\intlib.d")
+I (..\..\common\IntLib.h)(0x511BAACC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD44C0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087BC3E)
+F (..\..\common\RstLib.c)(0x511BAACA)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\Obj\rstlib.o" --omf_browse ".\Obj\rstlib.crf" --depend ".\Obj\rstlib.d")
+I (..\..\common\RstLib.h)(0x511BAACA)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD44C0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087BC3E)
+F (..\..\common\WdtLib.c)(0x511BAACC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\Obj\wdtlib.o" --omf_browse ".\Obj\wdtlib.crf" --depend ".\Obj\wdtlib.d")
+I (..\..\common\WdtLib.h)(0x511BAACC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD44C0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087BC3E)
+F (..\..\common\ClkLib.c)(0x511BAACC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I..\..\include -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ADI -o ".\Obj\clklib.o" --omf_browse ".\Obj\clklib.crf" --depend ".\Obj\clklib.d")
+I (..\..\common\ClkLib.h)(0x511BAACC)
+I (C:\Keil\ARM\Inc\ADI\ADuCM360.h)(0x50FD44C0)
+I (C:\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5087BDEE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F9D1D0)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x5087BDEE)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x5087BDEE)
+I (C:\Keil\ARM\Inc\ADI\system_ADUCM360.h)(0x5087BC3E)

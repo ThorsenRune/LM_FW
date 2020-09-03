@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectWorkspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_mpw.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <WorkspaceName>WorkSpace</WorkspaceName>
+
+  <project>
+    <PathAndName>.\Adc\AdcExample.uvproj</PathAndName>
+    <NodeIsActive>1</NodeIsActive>
+  </project>
+
+  <project>
+    <PathAndName>.\ADC_DMA\ADC_DMA.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\AN1159 I2C\I2C.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\Blink\Blink.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\CN0221\CN0221.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\CN0300\CN0300.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\DAC_DMA\DAC_DMA.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\Flash\Flash.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\FlashProtect\FlashProtect.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\I2C_DMA\Master\I2C_Master.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\I2C_DMA\Slave\I2C_Slave.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\PowerDown\PowerDown.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\PWM\PWM.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\RTD_Demo\RTD_Demo.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\SPI\SPI.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\SPI_DMA\SPIDMA_Master\SPIDMA_Master.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\SPI_DMA\SPIDMA_SLave\SPIDMA_Slave.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\Timers\Timers.uvproj</PathAndName>
+  </project>
+
+  <project>
+    <PathAndName>.\Uart_DMA\UARTDma_demo.uvproj</PathAndName>
+  </project>
+
+</ProjectWorkspace>
