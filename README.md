@@ -2,6 +2,7 @@
 Firmware for the LM Neuroprosthesis
 This is the first release of the firmware for the ADUCM360 based hardware (LM_HW). 
 
+Its a project in development and newer versions migrating to progressive web apps using WiFi is in the pipeline. Please request for latest update
 
 
 ## Acknowledgements
