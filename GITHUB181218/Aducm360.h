@@ -1,6 +1,5 @@
 /****************************************************************************************************//**
  * @file     ADUCM360.h
- *
  * @brief    CMSIS Cortex-M3 Core Peripheral Access Layer Header File for
  *           default ADUCM360 Device Series
  *
